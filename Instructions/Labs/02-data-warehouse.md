@@ -88,7 +88,7 @@ In this task, you will create database tables by defining their structure with a
 
 6. Run the above query to insert three rows into the **DimProduct** table.
 
-7. When the query has finished, select the **Data** tab at the bottom of the page in the data warehouse. In the **Explorer** pane, select the **DimProduct** table and verify that the three rows have been added to the table.
+7. In the **Explorer** pane, select the **DimProduct** table and verify that the three rows have been added to the table.
 
 8. On the Home menu tab, use the **New SQL Query** button to create a new query for the table. In the Lab VM, Open the first text file, from **C:\LabFiles\Files\create-dw-01.txt**, and copy the Transact-SQL code related to the 'DimProduct' table. Paste the 'DimProduct' table code into the new query pane you created and similarily copy code from file **C:\LabFiles\Files\create-dw-02.txt** and **C:\LabFiles\Files\create-dw-03.txt** one after the other in same query pane and execute the query.
 
@@ -114,6 +114,8 @@ In this task, you will create database tables by defining their structure with a
 In this task, you will create a relational data warehouse consisting of fact and dimension tables, where fact tables hold numeric measures for analysis and dimension tables store entity attributes. You'll define relationships between tables in Microsoft Fabric to build a data model for efficient business performance analysis.
 
 1. In the warehouse, from the top navigation pane, select the **Model Layouts** option.
+
+   >**Note:** If you do not see the **Model Layouts** option, close and reopen the Data Warehouse from the left most navigation pane.
 
 2. In the model pane, rearrange the tables in your data warehouse so that the **FactSalesOrder** table is in the middle, like this:
 
